@@ -1099,6 +1099,7 @@ drawable bgbellc
 drawable bglocationc
 drawable bgphonec
 drawable bgrupeee
+drawable borderstyle
 drawable buttonstylethree
 drawable casual
 drawable common_full_open_on_phone
