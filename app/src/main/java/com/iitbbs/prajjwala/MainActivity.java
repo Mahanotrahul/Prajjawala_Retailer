@@ -4,9 +4,12 @@ import android.app.FragmentTransaction;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.net.Uri;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.util.Log;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -16,25 +19,43 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ImageView;
+import android.widget.TextView;
+
+import com.facebook.drawee.backends.pipeline.Fresco;
+import com.facebook.drawee.view.SimpleDraweeView;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
+    String username, email, link_uri;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        Fresco.initialize(MainActivity.this);
         setContentView(R.layout.activity_main);
+
+
+
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        /*FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });*/
+        SharedPreferences mPrefs = getSharedPreferences("MyPreferences",0);
+        username = mPrefs.getString("Retailer_name", "");
+        Log.d("huhu",username);
+
+        email = mPrefs.getString("Retailer_email","");
+        Log.d("huhu",email);
+
+        link_uri = mPrefs.getString("Profile_pic","");
+        Log.d("huhu",link_uri);
+
+        Uri imageUri = Uri.parse(link_uri);
+
+        Log.d("huhu", imageUri.toString());
+
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -49,6 +70,18 @@ public class MainActivity extends AppCompatActivity
         ft.commit();
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+
+        View hView =  navigationView.getHeaderView(0);
+
+        TextView nav_name = (TextView) hView.findViewById(R.id.name_user);
+        nav_name.setText(username);
+
+        TextView nav_email = (TextView) hView.findViewById(R.id.textView);
+        nav_email.setText(email);
+
+        SimpleDraweeView draweeView = (SimpleDraweeView) hView.findViewById(R.id.sdvImage);
+        draweeView.setImageURI(imageUri);
+
         navigationView.setNavigationItemSelectedListener(this);
     }
 

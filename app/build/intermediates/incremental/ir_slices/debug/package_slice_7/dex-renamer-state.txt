@@ -1,4 +1,4 @@
-#Sat Mar 02 08:09:42 IST 2019
-base.0=D\:\\Vasitars_Prajjawala\\Prajjawala\\Smart India Hackathon\\Prajjawala-1\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\7
+#Sat Mar 02 16:55:21 IST 2019
+base.0=D\:\\AndroidProjects\\Projects\\Prajjawala_Retailer\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\7
 path.0=classes.dex
 renamed.0=classes.dex

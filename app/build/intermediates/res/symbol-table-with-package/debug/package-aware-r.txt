@@ -1297,7 +1297,6 @@ id icon_group
 id icon_only
 id ifRoom
 id image
-id imageView
 id imageView2
 id imageView3
 id imageView5
@@ -1309,7 +1308,6 @@ id iv0
 id iv1
 id iv2
 id iv3
-id iv4
 id iv5
 id labeled
 id largeLabel
@@ -1332,6 +1330,7 @@ id mini
 id mtrl_child_content_container
 id mtrl_internal_children_alpha_tag
 id multiply
+id name_user
 id nav_customercare
 id nav_dealer
 id nav_gas
@@ -1364,6 +1363,16 @@ id pin
 id progress_circular
 id progress_horizontal
 id radio
+id retailer_aadhar_number
+id retailer_city
+id retailer_consumers
+id retailer_dob
+id retailer_id
+id retailer_license
+id retailer_name
+id retailer_ph_number
+id retailer_state
+id retailer_user_name
 id right
 id right_icon
 id right_side
@@ -1371,7 +1380,6 @@ id rl1
 id rv0
 id rv2
 id rv3
-id rv4
 id satellite
 id save_image_matrix
 id save_non_transition_alpha
@@ -1382,6 +1390,8 @@ id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
 id scrollable
+id sdvImage
+id sdvImage1
 id search_badge
 id search_bar
 id search_button
@@ -1476,7 +1486,6 @@ id tv39
 id tv40
 id tv41
 id tv5
-id tv50
 id tv52
 id tv53
 id tv54
