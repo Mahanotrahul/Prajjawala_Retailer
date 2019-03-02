@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: com.facebook.fresco:nativeimagetranscoder:1.12.1@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/nativeimagetranscoder-1.12.1.aar/cd09687eabd6fccf013b0e6a851588c5/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/nativeimagetranscoder-1.12.1.aar/cd09687eabd6fccf013b0e6a851588c5/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/nativeimagetranscoder-1.12.1.aar/db81f4babd4a9ff5b7996a34bbfbb9fc/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/nativeimagetranscoder-1.12.1.aar/db81f4babd4a9ff5b7996a34bbfbb9fc/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

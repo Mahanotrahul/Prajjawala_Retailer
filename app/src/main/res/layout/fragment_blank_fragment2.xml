@@ -1,165 +1,251 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:facebook="http://schemas.android.com/apk/res-auto"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".BlankFragment2">
-    <TextView
-        android:id="@+id/tv50"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/rv4"
-        android:layout_centerHorizontal="true"
-        android:text="@string/profile"
-        android:textColor="#f4f681"
-        android:textSize="30sp"
-        android:textStyle="bold"
-        android:textAllCaps="true"
-        app:fontFamily="@font/basic"/>
-
-    <RelativeLayout
-        android:id="@+id/rv4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:layout_margin="10dp"
-        android:background="@drawable/detailsborder">
-        <ImageView
-            android:id="@+id/iv4"
-            android:layout_width="120dp"
-            android:layout_height="120dp"
-            android:layout_centerHorizontal="true"
-            android:src="@drawable/profilee"
-            android:contentDescription="@string/app_name"/>
-        <!--<RelativeLayout
-            android:id="@+id/rv1"
+    tools:context=".BlankFragment2"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="10"
+        android:textColor="@color/white"
+        >
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            />
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/sdvImage1"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            facebook:placeholderImage="@drawable/bglocationc"
+            facebook:roundedCornerRadius="5dp"
+            facebook:roundBottomStart="false"
+            facebook:roundBottomEnd="false"
+            facebook:roundWithOverlayColor="@color/white"
+            facebook:roundingBorderWidth="1dp"
+            facebook:roundingBorderColor="@color/white"/>
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:layout_below="@+id/iv4">
+            android:orientation="horizontal"
+            android:weightSum="10"
+            android:layout_margin="10dp"
+            android:textColor="@color/white"
+            >
             <TextView
-                android:id="@+id/tv51"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="3.5"
                 android:layout_height="wrap_content"
-                android:layout_centerHorizontal="true"/>
+                android:textSize="18sp"
+                android:text="Name :"
+                android:textColor="@color/white"/>
             <TextView
-                android:id="@+id/tv42"
-                android:layout_alignEnd="@+id/tv51"
-                android:layout_alignRight="@+id/tv51"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="7"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/tv51"
-                android:text="@string/name"
-                android:layout_marginLeft="0dp"
-                android:layout_marginRight="0dp"
-                android:textColor="#f4f681"
-                android:textSize="20sp"
-                android:textStyle="bold"
-                app:fontFamily="@font/basic" />
+                android:textSize="18sp"
+                android:id="@+id/retailer_name"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="10"
+            android:layout_margin="10dp">
             <TextView
-                android:id="@+id/tv43"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="3.5"
                 android:layout_height="wrap_content"
-                android:layout_toRightOf="@+id/tv42"
-                android:layout_toEndOf="@+id/tv42"
-                android:layout_alignTop="@+id/tv42"
-                android:text="@string/lucifer"
-                android:textColor="#ffffff"
-                android:textSize="20sp"
-                android:textStyle="bold"
-                app:fontFamily="@font/basic"
-                android:layout_marginLeft="5dp"/>
+                android:textSize="18sp"
+                android:text="Retailer ID :"
+                android:textColor="@color/white"/>
             <TextView
-                android:id="@+id/tv44"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="7"
                 android:layout_height="wrap_content"
-                android:text="@string/ph_no"
-                android:layout_marginTop="10dp"
-                android:layout_below="@+id/tv42"
-                android:layout_alignEnd="@+id/tv42"
-                android:layout_alignRight="@+id/tv42"
-                android:textColor="#f4f681"
-                android:textSize="20sp"
-                android:textStyle="bold"
-                app:fontFamily="@font/basic"/>
+                android:textSize="18sp"
+                android:id="@+id/retailer_id"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="10"
+            android:layout_margin="10dp">
             <TextView
-                android:id="@+id/tv45"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="3.5"
                 android:layout_height="wrap_content"
-                android:layout_toRightOf="@+id/tv44"
-                android:layout_toEndOf="@+id/tv44"
-                android:layout_alignTop="@+id/tv44"
-                android:text="@string/zzzzzzzzzz"
-                android:textColor="#ffffff"
-                android:textSize="20sp"
-                android:textStyle="bold"
-                app:fontFamily="@font/basic"
-                android:layout_marginLeft="5dp"/>
+                android:textSize="18sp"
+                android:text="D.O.B :"
+                android:textColor="@color/white"/>
             <TextView
-                android:id="@+id/tv46"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="7"
                 android:layout_height="wrap_content"
-                android:text="@string/email"
-                android:layout_below="@+id/tv44"
-                android:layout_alignEnd="@+id/tv44"
-                android:layout_alignRight="@+id/tv44"
-                android:textColor="#f4f681"
-                android:textSize="20sp"
-                android:textStyle="bold"
-                app:fontFamily="@font/basic"
-                android:layout_marginTop="10dp"/>
+                android:textSize="18sp"
+                android:id="@+id/retailer_dob"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="10"
+            android:layout_margin="10dp">
             <TextView
-                android:id="@+id/tv47"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="3.5"
                 android:layout_height="wrap_content"
-                android:layout_toRightOf="@+id/tv46"
-                android:layout_toEndOf="@+id/tv46"
-                android:layout_alignTop="@+id/tv46"
-                android:text="@string/xxxx_yy_gmail_com"
-                android:maxLines="4"
-                android:gravity="left"
-                android:lines="4"
-                android:textColor="#ffffff"
-                android:textSize="20sp"
-                android:textStyle="bold"
-                app:fontFamily="@font/basic"
-                android:layout_marginLeft="5dp"/>
+                android:textSize="18sp"
+                android:text="Phone Number :"
+                android:textColor="@color/white"/>
             <TextView
-                android:id="@+id/tv48"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="7"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="15dp"
-                android:layout_marginBottom="30dp"
-                android:text="@string/adress"
-                android:layout_below="@+id/tv46"
-                android:layout_alignEnd="@+id/tv46"
-                android:layout_alignRight="@+id/tv46"
-                android:textColor="#f4f681"
-                android:textSize="20sp"
-                android:textStyle="bold"
-                app:fontFamily="@font/basic"/>
+                android:textSize="18sp"
+                android:id="@+id/retailer_ph_number"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="10"
+            android:layout_margin="10dp">
             <TextView
-                android:id="@+id/tv49"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="3.5"
                 android:layout_height="wrap_content"
-                android:layout_toRightOf="@+id/tv48"
-                android:layout_toEndOf="@+id/tv48"
-                android:layout_alignTop="@+id/tv48"
-                android:maxLines="4"
-                android:gravity="left"
-                android:lines="4"
-                android:text="@string/xxx_xxx_xxx_ndnalna"
-                android:textColor="#ffffff"
-                android:textSize="20sp"
-                android:textStyle="bold"
-                app:fontFamily="@font/basic"
-                android:layout_marginLeft="5dp"/>
-        </RelativeLayout>
+                android:textSize="18sp"
+                android:text="Aadhar Number :"
+                android:textColor="@color/white"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="7"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:id="@+id/retailer_aadhar_number"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="10"
+            android:layout_margin="10dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="3.5"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="City :"
+                android:textColor="@color/white"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="7"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:id="@+id/retailer_city"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="10"
+            android:layout_margin="10dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="3.5"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="State :"
+                android:textColor="@color/white"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="7"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:id="@+id/retailer_state"
+                android:textColor="@color/white"/>
+        </LinearLayout>
 
--->
-    </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="10"
+            android:layout_margin="10dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="3.5"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="User Name:"
+                android:textColor="@color/white"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="7"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:id="@+id/retailer_user_name"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="10"
+            android:layout_margin="10dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="3.5"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="License Number:"
+                android:textColor="@color/white"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="7"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:id="@+id/retailer_license"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="10"
+            android:layout_margin="10dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="3.5"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="No of customers:"
+                android:textColor="@color/white"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="7"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:id="@+id/retailer_consumers"
+                android:textColor="@color/white"/>
+        </LinearLayout>
 
+    </LinearLayout>
 
 
 

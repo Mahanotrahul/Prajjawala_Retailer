@@ -50,6 +50,9 @@ import java.util.logging.Handler;
 public class Main3Activity extends AppCompatActivity {
 
 
+    String name_retailer, id_retailer, email_retailer, dob, phone_retailer,aadhaar_retailer,city_retailer,state_retailer,shop_address,license_number,no_consumers,pic_retailer;
+
+
 
     public EditText username, password;
     public Button loginb;
@@ -66,7 +69,7 @@ public class Main3Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Fresco.initialize(this);
+
         setContentView(R.layout.activity_main3);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
@@ -302,10 +305,22 @@ public class Main3Activity extends AppCompatActivity {
                         success = true;
                     }
 
-                    String name_retailer = returned_values.getString("RETAILER_NAME");
-                    return name_retailer;
-                    //Log.i("huhu",name_retailer);
-                    //Toast.makeText(getApplicationContext(),"you are "+name_retailer,Toast.LENGTH_LONG).show();
+                    name_retailer = returned_values.getString("RETAILER_NAME");
+                    id_retailer = returned_values.getString("RETAILER_ID");
+                    email_retailer = returned_values.getString("RETAILER_EMAIL");
+                    dob = returned_values.getString("DOB");
+                    phone_retailer = returned_values.getString("PHONE_NUMBER");
+                    aadhaar_retailer = returned_values.getString("AADHAAR");
+                    city_retailer = returned_values.getString("CITY");
+                    state_retailer = returned_values.getString("STATE");
+                    shop_address = returned_values.getString("SHOP_ADDRESS");
+                    license_number = returned_values.getString("LICENSE_NUMBER");
+                    no_consumers = returned_values.getString("NO_CONSUMERS");
+                    pic_retailer = returned_values.getString("PROFILE_PICTURE");
+
+
+
+
                 } catch (Exception e) {
                     line = reader.readLine();
                     Log.i("huhu", line);
@@ -329,6 +344,19 @@ public class Main3Activity extends AppCompatActivity {
                 SharedPreferences.Editor editor = preferences.edit();
                 editor.putString("UserName", username.getText().toString());
                 editor.putString("Password", password.getText().toString());
+                editor.putString("Retailer_name", name_retailer);
+                editor.putString("Retailer_id", id_retailer);
+                editor.putString("Retailer_email", email_retailer);
+                editor.putString("DOB", dob);
+                editor.putString("Phone_retailer",phone_retailer);
+                editor.putString("Aadhaar_retailer",aadhaar_retailer);
+                editor.putString("City_retailer",city_retailer);
+                editor.putString("State_retailer",state_retailer);
+                editor.putString("Shop_address",shop_address);
+                editor.putString("License_number",license_number);
+                editor.putString("No_consumers",no_consumers);
+                editor.putString("Profile_pic",pic_retailer);
+                Log.d("huhu2",pic_retailer);
                 editor.commit();
                 intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 startActivity(intent);

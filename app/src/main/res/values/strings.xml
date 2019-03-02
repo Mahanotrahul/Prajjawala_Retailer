@@ -9,7 +9,7 @@
     <string name="recharge_payments">Recharge/Payments</string>
     <string name="maps">Maps</string>
     <string name="gas_leaks">Gas Leaks</string>
-    <string name="usage_stats">Usage stats</string>
+    <string name="usage_stats">Usage statistics</string>
     <string name="communicate">Communicate</string>
     <string name="contact_dealer">Contact Dealer</string>
     <string name="contact_prajjwala_customer_care">Contact Prajjwala Customer care</string>
@@ -67,7 +67,7 @@
 
     <string name="email">Email Id</string>
     <string name="passowrd">Password</string>
-    <string name="login">LOGIN</string>
+    <string name="login">RETAILER LOGIN</string>
     <string name="show_pwd">Show Password</string>
     <string name="hide_pwd">Hide Password</string>
     <string name="forgot">Forgot password?</string>
