@@ -179,6 +179,12 @@ public class MainActivity extends AppCompatActivity
             editor.clear();
             editor.commit();
             startActivity(intent);
+        } else if(id == R.id.nav_register_customer) {
+            android.app.FragmentManager fragmentManager = getFragmentManager();
+            FragmentTransaction ft = fragmentManager.beginTransaction();
+            ft.replace(R.id.fragment, new BlankFragment9());
+            ft.addToBackStack(null);
+            ft.commit();
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
