@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity
 
         android.app.FragmentManager fragmentManager = getFragmentManager();
         FragmentTransaction ft = fragmentManager.beginTransaction();
-        ft.replace(R.id.fragment, new BlankFragment());
+        ft.replace(R.id.fragment, new home_main());
         ft.addToBackStack(null);
         ft.commit();
 
@@ -126,7 +126,7 @@ public class MainActivity extends AppCompatActivity
         if (id == R.id.nav_home) {
             android.app.FragmentManager fragmentManager = getFragmentManager();
             FragmentTransaction ft = fragmentManager.beginTransaction();
-            ft.replace(R.id.fragment, new BlankFragment());
+            ft.replace(R.id.fragment, new home_main());
             ft.addToBackStack(null);
             ft.commit();
         } else if (id == R.id.nav_profile) {
@@ -153,24 +153,20 @@ public class MainActivity extends AppCompatActivity
             ft.replace(R.id.fragment, new BlankFragment5());
             ft.addToBackStack(null);
             ft.commit();
-        } else if (id == R.id.nav_dealer) {
+        /*} else if (id == R.id.nav_dealer) {
             android.app.FragmentManager fragmentManager = getFragmentManager();
             FragmentTransaction ft = fragmentManager.beginTransaction();
             ft.replace(R.id.fragment, new BlankFragment6());
             ft.addToBackStack(null);
-            ft.commit();
-        } else if (id == R.id.nav_customercare) {
+            ft.commit();*/
+        /*} else if (id == R.id.nav_customercare) {
             android.app.FragmentManager fragmentManager = getFragmentManager();
             FragmentTransaction ft = fragmentManager.beginTransaction();
             ft.replace(R.id.fragment, new BlankFragment7());
             ft.addToBackStack(null);
-            ft.commit();
+            ft.commit(); */
         } else if (id == R.id.nav_maps) {
-            android.app.FragmentManager fragmentManager = getFragmentManager();
-            FragmentTransaction ft = fragmentManager.beginTransaction();
-            ft.replace(R.id.fragment, new BlankFragment8());
-            ft.addToBackStack(null);
-            ft.commit();
+
         } else if(id == R.id.nav_log_out){
             Intent intent = new Intent(this, Main3Activity.class);
             intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
@@ -179,6 +175,12 @@ public class MainActivity extends AppCompatActivity
             editor.clear();
             editor.commit();
             startActivity(intent);
+        } else if(id==R.id.nav_recharge) {
+            android.app.FragmentManager fragmentManager = getFragmentManager();
+            FragmentTransaction ft = fragmentManager.beginTransaction();
+            ft.replace(R.id.fragment, new fragment_recharge());
+            ft.addToBackStack(null);
+            ft.commit();
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

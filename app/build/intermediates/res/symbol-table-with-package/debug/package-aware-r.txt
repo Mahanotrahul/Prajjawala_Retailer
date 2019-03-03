@@ -27,6 +27,7 @@ animator mtrl_fab_hide_motion_spec
 animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
+array array
 array com_google_android_gms_fonts_certs
 array com_google_android_gms_fonts_certs_dev
 array com_google_android_gms_fonts_certs_prod
@@ -237,6 +238,7 @@ attr editTextColor
 attr editTextStyle
 attr elevation
 attr emptyVisibility
+attr endLineColor
 attr enforceMaterialTheme
 attr enforceTextAppearance
 attr errorEnabled
@@ -393,7 +395,13 @@ attr layout_scrollFlags
 attr layout_scrollInterpolator
 attr liftOnScroll
 attr lineHeight
+attr lineOrientation
+attr linePadding
 attr lineSpacing
+attr lineStyle
+attr lineStyleDashGap
+attr lineStyleDashLength
+attr lineWidth
 attr listChoiceBackgroundIndicator
 attr listDividerAlertDialog
 attr listItemLayout
@@ -409,6 +417,9 @@ attr liteMode
 attr logo
 attr logoDescription
 attr mapType
+attr marker
+attr markerInCenter
+attr markerSize
 attr materialButtonStyle
 attr materialCardViewStyle
 attr maxActionInlineWidth
@@ -483,6 +494,10 @@ attr searchViewStyle
 attr seekBarStyle
 attr selectableItemBackground
 attr selectableItemBackgroundBorderless
+attr seriesColor
+attr seriesData
+attr seriesTitle
+attr seriesType
 attr showAsAction
 attr showDividers
 attr showMotionSpec
@@ -500,6 +515,7 @@ attr spinnerStyle
 attr splitTrack
 attr srcCompat
 attr stackFromEnd
+attr startLineColor
 attr state_above_anchor
 attr state_collapsed
 attr state_collapsible
@@ -663,6 +679,7 @@ color background_floating_material_dark
 color background_floating_material_light
 color background_material_dark
 color background_material_light
+color bg
 color black
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
@@ -693,6 +710,7 @@ color common_google_signin_btn_text_light_disabled
 color common_google_signin_btn_text_light_focused
 color common_google_signin_btn_text_light_pressed
 color common_google_signin_btn_tint
+color dark_grey
 color deep_red
 color design_bottom_navigation_shadow_color
 color design_default_color_primary
@@ -715,6 +733,7 @@ color error_color_material_dark
 color error_color_material_light
 color foreground_material_dark
 color foreground_material_light
+color gray
 color highlighted_text_material_dark
 color highlighted_text_material_light
 color ic_launcher_background
@@ -1100,6 +1119,9 @@ drawable bglocationc
 drawable bgphonec
 drawable bgrupeee
 drawable borderstyle
+drawable box_disabled
+drawable box_enabled
+drawable buttonstyles
 drawable buttonstylethree
 drawable casual
 drawable common_full_open_on_phone
@@ -1121,6 +1143,7 @@ drawable common_google_signin_btn_text_light
 drawable common_google_signin_btn_text_light_focused
 drawable common_google_signin_btn_text_light_normal
 drawable common_google_signin_btn_text_light_normal_background
+drawable default_bg
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
 drawable design_ic_visibility
@@ -1128,6 +1151,8 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable detailsborder
+drawable dot_disabled
+drawable dot_enabled
 drawable fire
 drawable gaso
 drawable googleg_disabled_color_18
@@ -1138,8 +1163,10 @@ drawable hii
 drawable hiiiiii
 drawable ic_action_name
 drawable ic_action_rupee
+drawable ic_arrow_drop_down_black_24dp
 drawable ic_contact_phone_black
 drawable ic_exit_to_app_black_24dp
+drawable ic_format_list_bulleted_black_24dp
 drawable ic_home_black_24dp
 drawable ic_import_contacts_black_24dp
 drawable ic_launcher_background
@@ -1159,7 +1186,9 @@ drawable ic_timelapse_black_24dp
 drawable ic_timeline_black_24dp
 drawable ic_warning_black
 drawable images
+drawable logo_small
 drawable logoo
+drawable marker
 drawable mtrl_snackbar_background
 drawable mtrl_tabs_default_indicator
 drawable navigation_empty_icon
@@ -1178,7 +1207,12 @@ drawable notify_panel_notification_icon_bg
 drawable prajjawala
 drawable profilee
 drawable reshedule
+drawable sample_item_bg
 drawable side_nav_bar
+drawable spinner
+drawable spinnerstyle
+drawable state_box
+drawable state_dot
 drawable subscription
 drawable tampering
 drawable textviewstyle
@@ -1246,6 +1280,7 @@ id coordinator
 id custom
 id customPanel
 id dark
+id dash
 id decor_content_parent
 id default_activity_button
 id design_bottom_sheet
@@ -1256,6 +1291,7 @@ id design_navigation_view
 id dimensions
 id direct
 id disableHome
+id dot_indicator
 id drawer_layout
 id ed1
 id ed2
@@ -1288,10 +1324,13 @@ id forgotPassword
 id fragment
 id ghost_view
 id gone
+id graph
 id group_divider
 id groups
 id home
 id homeAsUp
+id home_cardview_layout
+id horizontal
 id hybrid
 id icon
 id icon_group
@@ -1316,6 +1355,8 @@ id left
 id light
 id line1
 id line3
+id line_indicator_bottom
+id line_indicator_top
 id listMode
 id list_item
 id login_button
@@ -1332,8 +1373,7 @@ id mtrl_child_content_container
 id mtrl_internal_children_alpha_tag
 id multiply
 id name_user
-id nav_customercare
-id nav_dealer
+id nav_delivery
 id nav_gas
 id nav_home
 id nav_log_out
@@ -1342,7 +1382,6 @@ id nav_profile
 id nav_recharge
 id nav_subs
 id nav_tamper
-id nav_usage
 id nav_view
 id navigation_header_container
 id never
@@ -1364,7 +1403,20 @@ id pin
 id progress_circular
 id progress_horizontal
 id radio
+id recharge_aadhar
+id recharge_button
+id recharge_id
+id recharge_password
+id recharge_spinner
+id recycler
+id register_aadhar
+id register_email
+id register_name
+id register_password
+id register_phone
+id reset_button
 id retailer_aadhar_number
+id retailer_chart
 id retailer_city
 id retailer_consumers
 id retailer_dob
@@ -1372,6 +1424,7 @@ id retailer_id
 id retailer_license
 id retailer_name
 id retailer_ph_number
+id retailer_profile
 id retailer_state
 id retailer_user_name
 id right
@@ -1496,11 +1549,15 @@ id tv6
 id tv7
 id tv8
 id tv9
+id tv_content
+id tv_title
 id uniform
 id unlabeled
 id up
 id useLogo
+id username
 id username_login
+id vertical
 id view_offset_helper
 id visible
 id wide
@@ -1587,6 +1644,10 @@ layout fragment_blank_fragment5
 layout fragment_blank_fragment6
 layout fragment_blank_fragment7
 layout fragment_blank_fragment8
+layout fragment_fragment_recharge
+layout fragment_home_main
+layout fragment_home_retailer
+layout fragment_register
 layout mtrl_layout_snackbar
 layout mtrl_layout_snackbar_include
 layout nav_header_main
@@ -1605,10 +1666,13 @@ layout notification_template_media
 layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout sample_time_line
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+layout timeline_indicator
+layout timeline_view
 menu activity_main_drawer
 menu main
 mipmap ic_launcher
@@ -1749,6 +1813,8 @@ string tab_text_2
 string tab_text_3
 string tampering
 string terms_conditions
+string this_is_a_sample_sub_title_or_content
+string this_is_a_sample_title
 string time_5_00
 string title_activity_forgot_password
 string title_activity_main2
@@ -2270,6 +2336,7 @@ style Widget_MaterialComponents_TextInputLayout_OutlinedBox
 style Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense
 style Widget_MaterialComponents_Toolbar
 style Widget_Support_CoordinatorLayout
+style mySpinnerItemStyle
 styleable ActionBar background backgroundSplit backgroundStacked contentInsetEnd contentInsetEndWithActions contentInsetLeft contentInsetRight contentInsetStart contentInsetStartWithNavigation customNavigationLayout displayOptions divider elevation height hideOnContentScroll homeAsUpIndicator homeLayout icon indeterminateProgressStyle itemPadding logo navigationMode popupTheme progressBarPadding progressBarStyle subtitle subtitleTextStyle title titleTextStyle
 styleable ActionBarLayout android_layout_gravity
 styleable ActionMenuItemView android_minWidth
@@ -2316,6 +2383,7 @@ styleable ForegroundLinearLayout android_foreground android_foregroundGravity fo
 styleable GenericDraweeHierarchy actualImageScaleType backgroundImage fadeDuration failureImage failureImageScaleType overlayImage placeholderImage placeholderImageScaleType pressedStateOverlayImage progressBarAutoRotateInterval progressBarImage progressBarImageScaleType retryImage retryImageScaleType roundAsCircle roundBottomEnd roundBottomLeft roundBottomRight roundBottomStart roundTopEnd roundTopLeft roundTopRight roundTopStart roundWithOverlayColor roundedCornerRadius roundingBorderColor roundingBorderPadding roundingBorderWidth viewAspectRatio
 styleable GradientColor android_startColor android_endColor android_type android_centerX android_centerY android_gradientRadius android_tileMode android_centerColor android_startX android_startY android_endX android_endY
 styleable GradientColorItem android_color android_offset
+styleable GraphViewXML android_title seriesColor seriesData seriesTitle seriesType
 styleable LinearConstraintLayout android_orientation
 styleable LinearLayoutCompat android_gravity android_orientation android_baselineAligned android_baselineAlignedChildIndex android_weightSum divider dividerPadding measureWithLargestChild showDividers
 styleable LinearLayoutCompat_Layout android_layout_gravity android_layout_width android_layout_height android_layout_weight
@@ -2349,6 +2417,7 @@ styleable TabLayout tabBackground tabContentStart tabGravity tabIconTint tabIcon
 styleable TextAppearance android_textSize android_typeface android_textStyle android_textColor android_textColorHint android_textColorLink android_shadowColor android_shadowDx android_shadowDy android_shadowRadius android_fontFamily fontFamily textAllCaps
 styleable TextInputLayout android_textColorHint android_hint boxBackgroundColor boxBackgroundMode boxCollapsedPaddingTop boxCornerRadiusBottomEnd boxCornerRadiusBottomStart boxCornerRadiusTopEnd boxCornerRadiusTopStart boxStrokeColor boxStrokeWidth counterEnabled counterMaxLength counterOverflowTextAppearance counterTextAppearance errorEnabled errorTextAppearance helperText helperTextEnabled helperTextTextAppearance hintAnimationEnabled hintEnabled hintTextAppearance passwordToggleContentDescription passwordToggleDrawable passwordToggleEnabled passwordToggleTint passwordToggleTintMode
 styleable ThemeEnforcement android_textAppearance enforceMaterialTheme enforceTextAppearance
+styleable TimelineView endLineColor lineOrientation linePadding lineStyle lineStyleDashGap lineStyleDashLength lineWidth marker markerInCenter markerSize startLineColor
 styleable Toolbar android_gravity android_minHeight buttonGravity collapseContentDescription collapseIcon contentInsetEnd contentInsetEndWithActions contentInsetLeft contentInsetRight contentInsetStart contentInsetStartWithNavigation logo logoDescription maxButtonHeight navigationContentDescription navigationIcon popupTheme subtitle subtitleTextAppearance subtitleTextColor title titleMargin titleMarginBottom titleMarginEnd titleMarginStart titleMarginTop titleMargins titleTextAppearance titleTextColor
 styleable View android_theme android_focusable paddingEnd paddingStart theme
 styleable ViewBackgroundHelper android_background backgroundTint backgroundTintMode

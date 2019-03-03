@@ -36,4 +36,8 @@ dependencies {
     implementation 'com.google.maps:google-maps-services:0.1.20'
 
     implementation 'com.facebook.fresco:fresco:1.12.1'
+    implementation 'com.jjoe64:graphview:4.2.2'
+
+    implementation 'com.github.vipulasri:timelineview:1.1.0'
+    implementation 'com.github.po10cio:TimeLineView:1.0.2'
 }

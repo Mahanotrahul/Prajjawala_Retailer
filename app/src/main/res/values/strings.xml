@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Prajjwala</string>
+    <string name="app_name">Prajjawala</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Android Studio</string>
@@ -12,7 +12,7 @@
     <string name="usage_stats">Usage statistics</string>
     <string name="communicate">Communicate</string>
     <string name="contact_dealer">Contact Dealer</string>
-    <string name="contact_prajjwala_customer_care">Contact Prajjwala Customer care</string>
+    <string name="contact_prajjwala_customer_care">Contact Prajjawala Customer care</string>
     <string name="subscription">Subscription</string>
     <string name="tampering">Tampering</string>
     <string name="home">Home</string>
@@ -27,7 +27,7 @@
     <string name="_14_20_kg">14.20 Kg</string>
     <string name="_15_30_kg">15.30 Kg</string>
     <string name="xxxx_xxxx_xxxx">XXXX XXXX XXXX</string>
-    <string name="visit_us_at_www_prajjwala_com">Visit us at www.prajjwala.com</string>
+    <string name="visit_us_at_www_prajjwala_com">Visit us at www.prajjawala.com</string>
     <string name="_0_120_kg">0.120 Kg</string>
     <string name="reshedule">Reshedule</string>
     <string name="delivery_date">Delivery Date :</string>
@@ -42,7 +42,7 @@
     <string name="i_forgot_my_password">I forgot my password</string>
 
     <string name="contact">Contact</string>
-    <string name="prajjwala_customer_care">Prajjwala customer care</string>
+    <string name="prajjwala_customer_care">Prajjawala customer care</string>
     <string name="yyyyyyyyyy">yyyyyyyyyy</string>
     <string name="your_subscription">Your Subscription</string>
     <string name="ends_on">Ends on :</string>
@@ -65,7 +65,7 @@
     <string name="section_format">Hello World from section: %1$d</string>
     <string name="hello_world">Hello world!</string>
 
-    <string name="email">Email Id</string>
+    <string name="email">Username</string>
     <string name="passowrd">Password</string>
     <string name="login">RETAILER LOGIN</string>
     <string name="show_pwd">Show Password</string>
@@ -85,6 +85,15 @@
     <string name="back">BACK</string>
     <string name="forgot_password_msg">We just need your registered Email Id to send you password reset instructions</string>
     <string name="title_activity_forgot_password">forgotPasswordActivity</string>
+
+
+    <string-array name="array">
+        <item name="ten_rupee">10/-</item>
+        <item name="twenty_rupee">20/-</item>
+        <item name="fifty_rupee">50/-</item>
+        <item name="hundred_rupee">100/-</item>
+        <item name="fivehundred_rupee">500/-</item>
+    </string-array>
 
 
 </resources>

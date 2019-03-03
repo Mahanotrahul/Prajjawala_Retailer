@@ -5,7 +5,9 @@ INJECTED from C:\Users\BABBY\Desktop\Prajjawala_Retailer\app\src\main\AndroidMan
 INJECTED from C:\Users\BABBY\Desktop\Prajjawala_Retailer\app\src\main\AndroidManifest.xml:2:1-71:12
 INJECTED from C:\Users\BABBY\Desktop\Prajjawala_Retailer\app\src\main\AndroidManifest.xml:2:1-71:12
 MERGED from [com.android.support:design:28.0.0] C:\Users\BABBY\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\d6ca7bfe9365f819cfd47598de33d505\AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.po10cio:TimeLineView:1.0.2] C:\Users\BABBY\.gradle\caches\transforms-1\files-1.1\TimeLineView-1.0.2.aar\36314e0ed59c8520a4bf4d74c0ffa02a\AndroidManifest.xml:2:1-17:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\BABBY\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\1ee113f7e25f374fd9af3e8bbeae63d6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.jjoe64:graphview:4.2.2] C:\Users\BABBY\.gradle\caches\transforms-1\files-1.1\graphview-4.2.2.aar\520d067780cb5d23bf0e6ef239c9e16c\AndroidManifest.xml:2:1-14:12
 MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\BABBY\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.1.0.aar\9ffb30f2954ab509cb11c390cebc27b4\AndroidManifest.xml:17:1-38:12
 MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\BABBY\.gradle\caches\transforms-1\files-1.1\play-services-location-16.0.0.aar\044aa7f27606ad3b7f849b0d30807235\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\BABBY\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\e55b82bc817febc5b4f646212e9b88c1\AndroidManifest.xml:17:1-29:12
@@ -17,6 +19,7 @@ MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\BA
 MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\BABBY\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\ecedba8c653dd06340080d4d3bcbb31f\AndroidManifest.xml:17:1-22:12
 MERGED from [de.hdodenhof:circleimageview:1.2.1] C:\Users\BABBY\.gradle\caches\transforms-1\files-1.1\circleimageview-1.2.1.aar\665308de90d7201e5a63a2bb0dbfac60\AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.fresco:fresco:1.12.1] C:\Users\BABBY\.gradle\caches\transforms-1\files-1.1\fresco-1.12.1.aar\ee9751c51f2c320812602fc35002b240\AndroidManifest.xml:2:1-9:12
+MERGED from [com.github.vipulasri:timelineview:1.1.0] C:\Users\BABBY\.gradle\caches\transforms-1\files-1.1\timelineview-1.1.0.aar\480b623752e2d95c6508ac60c35b8391\AndroidManifest.xml:2:1-17:12
 MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\BABBY\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\e78753f15d6a16fff437a6d242620322\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\BABBY\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\0b0d9941525d055ea85df9b171db6fa1\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\BABBY\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\76ce72103c18196182978b0cf918cc59\AndroidManifest.xml:17:1-22:12
@@ -97,6 +100,10 @@ application
 ADDED from C:\Users\BABBY\Desktop\Prajjawala_Retailer\app\src\main\AndroidManifest.xml:16:5-69:19
 MERGED from [com.android.support:design:28.0.0] C:\Users\BABBY\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\d6ca7bfe9365f819cfd47598de33d505\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:design:28.0.0] C:\Users\BABBY\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\d6ca7bfe9365f819cfd47598de33d505\AndroidManifest.xml:22:5-20
+MERGED from [com.github.po10cio:TimeLineView:1.0.2] C:\Users\BABBY\.gradle\caches\transforms-1\files-1.1\TimeLineView-1.0.2.aar\36314e0ed59c8520a4bf4d74c0ffa02a\AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.po10cio:TimeLineView:1.0.2] C:\Users\BABBY\.gradle\caches\transforms-1\files-1.1\TimeLineView-1.0.2.aar\36314e0ed59c8520a4bf4d74c0ffa02a\AndroidManifest.xml:11:5-15:19
+MERGED from [com.jjoe64:graphview:4.2.2] C:\Users\BABBY\.gradle\caches\transforms-1\files-1.1\graphview-4.2.2.aar\520d067780cb5d23bf0e6ef239c9e16c\AndroidManifest.xml:11:5-12:19
+MERGED from [com.jjoe64:graphview:4.2.2] C:\Users\BABBY\.gradle\caches\transforms-1\files-1.1\graphview-4.2.2.aar\520d067780cb5d23bf0e6ef239c9e16c\AndroidManifest.xml:11:5-12:19
 MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\BABBY\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.1.0.aar\9ffb30f2954ab509cb11c390cebc27b4\AndroidManifest.xml:30:5-36:19
 MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\BABBY\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.1.0.aar\9ffb30f2954ab509cb11c390cebc27b4\AndroidManifest.xml:30:5-36:19
 MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\BABBY\.gradle\caches\transforms-1\files-1.1\play-services-location-16.0.0.aar\044aa7f27606ad3b7f849b0d30807235\AndroidManifest.xml:7:5-20
@@ -113,6 +120,8 @@ MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\BA
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\BABBY\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\7ab196960dbbed6e0b5405e4660759ff\AndroidManifest.xml:9:5-20
 MERGED from [de.hdodenhof:circleimageview:1.2.1] C:\Users\BABBY\.gradle\caches\transforms-1\files-1.1\circleimageview-1.2.1.aar\665308de90d7201e5a63a2bb0dbfac60\AndroidManifest.xml:9:5-20
 MERGED from [de.hdodenhof:circleimageview:1.2.1] C:\Users\BABBY\.gradle\caches\transforms-1\files-1.1\circleimageview-1.2.1.aar\665308de90d7201e5a63a2bb0dbfac60\AndroidManifest.xml:9:5-20
+MERGED from [com.github.vipulasri:timelineview:1.1.0] C:\Users\BABBY\.gradle\caches\transforms-1\files-1.1\timelineview-1.1.0.aar\480b623752e2d95c6508ac60c35b8391\AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.vipulasri:timelineview:1.1.0] C:\Users\BABBY\.gradle\caches\transforms-1\files-1.1\timelineview-1.1.0.aar\480b623752e2d95c6508ac60c35b8391\AndroidManifest.xml:11:5-15:19
 MERGED from [com.android.support:support-compat:28.0.0] C:\Users\BABBY\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\796ad1d9f527eb4355df5ba542283fa2\AndroidManifest.xml:22:5-94
 MERGED from [com.android.support:support-compat:28.0.0] C:\Users\BABBY\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\796ad1d9f527eb4355df5ba542283fa2\AndroidManifest.xml:22:5-94
 MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\BABBY\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\7cc9f5c1e4762545a0d9ba83903ab697\AndroidManifest.xml:22:5-23:19
@@ -209,8 +218,12 @@ INJECTED from C:\Users\BABBY\Desktop\Prajjawala_Retailer\app\src\main\AndroidMan
 INJECTED from C:\Users\BABBY\Desktop\Prajjawala_Retailer\app\src\main\AndroidManifest.xml
 MERGED from [com.android.support:design:28.0.0] C:\Users\BABBY\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\d6ca7bfe9365f819cfd47598de33d505\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:design:28.0.0] C:\Users\BABBY\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\d6ca7bfe9365f819cfd47598de33d505\AndroidManifest.xml:20:5-44
+MERGED from [com.github.po10cio:TimeLineView:1.0.2] C:\Users\BABBY\.gradle\caches\transforms-1\files-1.1\TimeLineView-1.0.2.aar\36314e0ed59c8520a4bf4d74c0ffa02a\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.po10cio:TimeLineView:1.0.2] C:\Users\BABBY\.gradle\caches\transforms-1\files-1.1\TimeLineView-1.0.2.aar\36314e0ed59c8520a4bf4d74c0ffa02a\AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\BABBY\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\1ee113f7e25f374fd9af3e8bbeae63d6\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\BABBY\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\1ee113f7e25f374fd9af3e8bbeae63d6\AndroidManifest.xml:20:5-44
+MERGED from [com.jjoe64:graphview:4.2.2] C:\Users\BABBY\.gradle\caches\transforms-1\files-1.1\graphview-4.2.2.aar\520d067780cb5d23bf0e6ef239c9e16c\AndroidManifest.xml:7:5-9:41
+MERGED from [com.jjoe64:graphview:4.2.2] C:\Users\BABBY\.gradle\caches\transforms-1\files-1.1\graphview-4.2.2.aar\520d067780cb5d23bf0e6ef239c9e16c\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\BABBY\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.1.0.aar\9ffb30f2954ab509cb11c390cebc27b4\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\BABBY\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.1.0.aar\9ffb30f2954ab509cb11c390cebc27b4\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\BABBY\.gradle\caches\transforms-1\files-1.1\play-services-location-16.0.0.aar\044aa7f27606ad3b7f849b0d30807235\AndroidManifest.xml:5:5-44
@@ -233,6 +246,8 @@ MERGED from [de.hdodenhof:circleimageview:1.2.1] C:\Users\BABBY\.gradle\caches\t
 MERGED from [de.hdodenhof:circleimageview:1.2.1] C:\Users\BABBY\.gradle\caches\transforms-1\files-1.1\circleimageview-1.2.1.aar\665308de90d7201e5a63a2bb0dbfac60\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:fresco:1.12.1] C:\Users\BABBY\.gradle\caches\transforms-1\files-1.1\fresco-1.12.1.aar\ee9751c51f2c320812602fc35002b240\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:fresco:1.12.1] C:\Users\BABBY\.gradle\caches\transforms-1\files-1.1\fresco-1.12.1.aar\ee9751c51f2c320812602fc35002b240\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.vipulasri:timelineview:1.1.0] C:\Users\BABBY\.gradle\caches\transforms-1\files-1.1\timelineview-1.1.0.aar\480b623752e2d95c6508ac60c35b8391\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.vipulasri:timelineview:1.1.0] C:\Users\BABBY\.gradle\caches\transforms-1\files-1.1\timelineview-1.1.0.aar\480b623752e2d95c6508ac60c35b8391\AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\BABBY\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\e78753f15d6a16fff437a6d242620322\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\BABBY\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\e78753f15d6a16fff437a6d242620322\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\BABBY\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\0b0d9941525d055ea85df9b171db6fa1\AndroidManifest.xml:20:5-44
